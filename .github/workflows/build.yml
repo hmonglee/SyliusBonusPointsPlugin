@@ -27,6 +27,20 @@ jobs:
         node: [14.19]
         mysql: [5.7]
 
+        exclude:
+          -
+            sylius: ~1.10.0
+            php: 8.1
+          -
+            sylius: ~1.10.0
+            php: 8.2
+          -
+            sylius: ~1.11.0
+            php: 8.1
+          -
+            sylius: ~1.11.0
+            php: 8.2
+
     env:
       APP_ENV: test
       DATABASE_URL: "mysql://root:root@127.0.0.1/sylius?serverVersion=${{ matrix.mysql }}"
