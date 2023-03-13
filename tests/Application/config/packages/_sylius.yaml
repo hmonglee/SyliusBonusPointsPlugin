@@ -21,3 +21,5 @@ sylius_order:
         order:
             classes:
                 model: Tests\BitBag\SyliusBonusPointsPlugin\Entity\Order
+sylius_ui:
+    use_webpack: false
