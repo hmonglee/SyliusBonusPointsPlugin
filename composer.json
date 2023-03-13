@@ -10,7 +10,6 @@
   "require": {
     "php": "^8.0",
     "sylius/sylius": "~1.10.0 || ~1.11.0 || ~1.12.0",
-    "symfony/swiftmailer-bundle": "^2.3"
   },
   "require-dev": {
     "behat/behat": "^3.6.1",
